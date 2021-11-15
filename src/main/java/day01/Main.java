@@ -7,9 +7,7 @@ public class Main {
         PositiveNumberContainer pnc = new PositiveNumberContainer();
         System.out.println("Kérem a pozitív valós számokat!");
         Scanner sc = new Scanner(System.in);
-
-
-        while(pnc.addPositiveReal(sc.nextDouble()));
+        while (pnc.addPositiveReal(sc.nextDouble())) ;
         pnc.printPositiveReals();
     }
 }

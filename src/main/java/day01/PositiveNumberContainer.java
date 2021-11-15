@@ -18,7 +18,7 @@ public class PositiveNumberContainer {
 
     public void printPositiveReals() {
         System.out.println("A tárolt számok:");
-        for(double d : positiveReals) {
+        for (double d : positiveReals) {
             System.out.println(d);
         }
     }
