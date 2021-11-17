@@ -24,7 +24,6 @@ class CarShopTest {
 
     @Test
     void testCreate() {
-
         assertEquals("Best Car", carShop.getName());
         assertEquals(10_000_000, carShop.getMaxPrice());
     }
@@ -43,7 +42,6 @@ class CarShopTest {
 
     @Test
     void testSumCars() {
-
         assertEquals(6270000, carShop.sumCarPrice());
     }
 
@@ -55,7 +53,6 @@ class CarShopTest {
 
     @Test
     void testCarsWithBrand() {
-
         assertEquals(2,carShop.carsWithBrand("Toyota").size());
         assertEquals(0,carShop.carsWithBrand("BMW").size());
     }
